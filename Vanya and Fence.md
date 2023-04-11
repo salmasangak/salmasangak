@@ -8,11 +8,9 @@ int main()
     {
      cin>>a;
      if(a>h)
-     {
-      s=s+2;
-     }
-     else{
-      s=s+1;}
+      s+=2;
+     else
+      s++;
     }
-   cout<<s;
+   cout<<s<<endl;
 }
